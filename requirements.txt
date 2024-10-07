@@ -1,0 +1,5 @@
+pymongo==4.0.1
+json5==0.9.5
+requests==2.27.1
+datetime==5.1
+jdatetime==4.1.1
