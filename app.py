@@ -107,7 +107,7 @@ while True:
 
                     
                     rows, times, volumes, prices = [], [], [], []
-                    for i in range(0, len(pdd) - 5, 4):
+                    for i in range(0, len(pdd), 4):
                         rows.append(pdd[i])
                         times.append(pdd[i + 1])
                         volumes.append(pdd[i + 2])
