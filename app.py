@@ -10,7 +10,7 @@ from datetime import time as tms
 
 
 
-client = MongoClient("mongodb://admin:uiAfWzvnNH1UqF3A2qnt@remote-asiatech.runflare.com:30772/boursedata-olt-service?authSource=admin")
+client = MongoClient('mongodb://root:sekw03v0qX4SPqIMt6p1lLEN@billy.iran.liara.ir:31770/my-app?authSource=admin')
 mydb = client["bourse"]
 mycol = mydb["data of namd"]
 sandogh=mydb['idsandogh']
